@@ -25,6 +25,7 @@ Temporary Items
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
+**/__pycache__/
 *.py[cod]
 
 # C extensions
@@ -35,7 +36,7 @@ __pycache__/
 env/
 build/
 develop-eggs/
-dist/
+dist/gs
 downloads/
 eggs/
 lib/
@@ -80,8 +81,12 @@ target/
 *.log
 *.pot
 *.pyc
-__pycache__/
 local_settings.py
+media/
 
 .env
 db.sqlite3
+
+# idea
+.idea/
+*/migrations/
